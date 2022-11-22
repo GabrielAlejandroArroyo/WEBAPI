@@ -25,3 +25,7 @@ C:\Backend\webapi\obj\Debug\net6.0\refint\webapi.dll
 C:\Backend\webapi\obj\Debug\net6.0\webapi.pdb
 C:\Backend\webapi\obj\Debug\net6.0\webapi.genruntimeconfig.cache
 C:\Backend\webapi\obj\Debug\net6.0\ref\webapi.dll
+C:\Backend\webapi\bin\Debug\net6.0\thunder-tests\thunderActivity.json
+C:\Backend\webapi\bin\Debug\net6.0\thunder-tests\thunderclient.json
+C:\Backend\webapi\bin\Debug\net6.0\thunder-tests\thunderCollection.json
+C:\Backend\webapi\bin\Debug\net6.0\thunder-tests\thunderEnvironment.json
