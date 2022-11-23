@@ -1,3 +1,5 @@
+using webapi.middlewares;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -20,7 +22,9 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-app.UseWelcomePage();
+//app.UseWelcomePage();
+
+app.UseTimeMiddleware();
 
 app.MapControllers();
 

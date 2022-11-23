@@ -4,13 +4,19 @@
     "colId": "history",
     "containerId": "",
     "name": "Valida Servidor",
-    "url": "https://localhost:7189/WeatherForecast",
+    "url": "https://localhost:7189/api/WeatherForecast?time",
     "method": "GET",
     "sortNum": 0,
     "created": "2022-11-19T03:02:45.237Z",
-    "modified": "2022-11-19T03:06:58.592Z",
+    "modified": "2022-11-23T14:53:40.689Z",
     "headers": [],
-    "params": [],
+    "params": [
+      {
+        "name": "time",
+        "value": "",
+        "isPath": false
+      }
+    ],
     "tests": []
   },
   {
@@ -25,6 +31,26 @@
     "modified": "2022-11-22T23:15:03.100Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6e73bb72-96fb-4473-a10e-6bb817246521",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://localhost:7189?time",
+    "url": "https://localhost:7189?time",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-23T14:52:56.340Z",
+    "modified": "2022-11-23T14:52:56.340Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "time",
+        "value": "",
+        "isPath": false
+      }
+    ],
     "tests": []
   }
 ]
