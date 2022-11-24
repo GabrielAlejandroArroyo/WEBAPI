@@ -12,7 +12,10 @@ builder.Services.AddSwaggerGen();
 
 // Injeccion de dependencia
 builder.Services.AddScoped<IHelloworldService, HelloworldService>();
+builder.Services.AddScoped<ICategoriaServices, CategoriaServices>();
+builder.Services.AddScoped<ITareaServices, TareaServices>();
 // Otra manera de hacer inyeccion de depnedencias, no recomendado, siempre es conveniente utilizar una interface
+// Esta oppcion es para pasar parametros en el contructor
 //builder.Services.AddScoped(p=> new HelloworldService());
 
 var app = builder.Build();
