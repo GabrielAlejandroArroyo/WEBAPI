@@ -21,6 +21,7 @@ namespace webapi.Controllers
             helloWorldService = helloWorld;
         }
 
+        [HttpGet]
         public IActionResult Get()
         {
             return Ok(helloWorldService.GetHelloWorld());
